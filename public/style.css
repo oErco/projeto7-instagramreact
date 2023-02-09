@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #fafafa;
     width: 100%;
     font-family: Roboto;
@@ -12,7 +12,7 @@ video {
 .top-bar-mobile {
     background-color: #ffffff;
     width: 100%;
-    height: 54px; 
+    height: 54px;
     position: fixed;
     top: 0;
     left: 0;
@@ -29,11 +29,11 @@ video {
     margin-top: 54px;
 }
 
-.container-stories :nth-child(1){
+.container-stories :nth-child(1) {
     margin-left: 10px;
 }
 
-.container-post{
+.container-post {
     width: 100%;
     margin-bottom: 60px;
     max-width: 614px;
@@ -41,7 +41,7 @@ video {
     margin-right: auto;
 }
 
-.top-post{
+.top-post {
     position: relative;
     background-color: #ffffff;
     display: flex;
@@ -92,7 +92,7 @@ video {
 
 .icons {
     width: 100%;
-    height:76px;
+    height: 76px;
     display: flex;
     justify-content: space-between;
 }
@@ -165,7 +165,7 @@ span {
 }
 
 .container-stories {
-    position:relative;
+    position: relative;
     display: flex;
     gap: 14px;
     align-items: center;
@@ -240,7 +240,7 @@ span {
     justify-content: space-around;
 }
 
-@media (max-width: 614px){
+@media (max-width: 614px) {
     .top-bar-desktop {
         display: none;
     }
@@ -274,7 +274,7 @@ span {
         overflow: scroll;
         overflow-y: hidden;
     }
-    
+
 }
 
 @media (min-width: 615px) {
@@ -290,7 +290,7 @@ span {
         display: none;
     }
 
-    
+
     .icon-instagram {
         width: 22px;
         height: 22px;
@@ -306,11 +306,11 @@ span {
         left: 63px;
         top: 15px;
     }
-    
+
     .top-bar-desktop {
         background-color: #ffffff;
         z-index: 2;
-        position:fixed;
+        position: fixed;
         top: 0;
         left: 0;
         height: 54px;
@@ -320,7 +320,7 @@ span {
         align-items: center;
         border-bottom: 1px #DBDBDB solid;
     }
-    
+
     .top-bar-left-desktop {
         display: flex;
         justify-content: space-between;
@@ -390,7 +390,7 @@ span {
     .externo-top-bar-desktop {
         background-color: #ffffff;
         z-index: 2;
-        position:fixed;
+        position: fixed;
         top: 0;
         left: 0;
         height: 54px;
@@ -407,11 +407,11 @@ span {
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .top-bar-left-desktop {
         height: 54px;
     }
-    
+
     .icon-instagram {
         width: 22px;
         height: 22px;
@@ -442,8 +442,7 @@ span {
     }
 
     .caixa-pesquisa {
-        position:absolute
-        
+        position: absolute
     }
 
 
@@ -483,7 +482,7 @@ span {
     .container-stories {
         margin-top: 88px;
         margin-left: 0;
-        
+
     }
 
     .container-post {
@@ -528,9 +527,10 @@ span {
         left: 73px;
         top: 56px;
     }
+
     .container-top-sugestoes {
         position: absolute;
-        top: 110px; 
+        top: 110px;
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -557,7 +557,7 @@ span {
     }
 
     .sugestao {
-   
+
         position: relative;
         height: 34px;
         width: 100%;
