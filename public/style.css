@@ -2,7 +2,11 @@ body {
     background-color: #fafafa;
     width: 100%;
     font-family: Roboto;
-    font-weight: 300;
+    font-weight: 300;   
+}
+
+img, .user-perfil-stories, .username-stories, .username-legenda, .coment-post span, ion-icon {
+    cursor: pointer;
 }
 
 video {
@@ -24,13 +28,11 @@ video {
 }
 
 .container-stories {
+    box-sizing: border-box;
     height: 121px;
     width: 100%;
     margin-top: 54px;
-}
-
-.container-stories :nth-child(1) {
-    margin-left: 10px;
+    padding-left: 20px;
 }
 
 .container-post {
@@ -489,6 +491,12 @@ span {
         margin-left: 0;
     }
 
+    .container-feed-side-bar {
+        width: 950px;
+        margin: auto;
+        justify-content: flex-start
+    }
+
     .container-side-bar {
         width: 293px;
         height: 500px;
@@ -509,6 +517,7 @@ span {
     }
 
     .user-text {
+        display: flex;
         position: absolute;
         top: 40px;
         left: 73px;
@@ -516,6 +525,12 @@ span {
         font-weight: 500;
         color: #262626;
         line-height: 16.41px;
+    }
+
+    .user-text ion-icon{
+        margin-left: 5px;
+        font-size: 15px;
+        cursor: pointer;
     }
 
     .sub-user-text {
