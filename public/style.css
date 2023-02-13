@@ -510,6 +510,7 @@ span {
     }
 
     .user-side-bar img {
+        object-fit: cover;
         width: 56px;
         height: 56px;
         border-radius: 50%;

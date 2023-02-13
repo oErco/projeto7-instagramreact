@@ -3,7 +3,7 @@ export default function Posts() {
     const objPost = [
         { perfilImg: "assets/jake-perfil.jpg", username: "J@ke", imgPost: "assets/312856.png", legend: "Estudando pois não nasci herdeiro.", likedByImg: "assets/perfil-arcoiris.jpg", likedByName: "arco-íris", likedByqt: "351.485" },
         { perfilImg: "assets/finn-perfil.jpg", username: "finn.o.humano", imgPost: "assets/finn-post.jpg", legend: "Formei!!! #dev #driven", likedByImg: "assets/jujuba-perfil.jpg", likedByName: "Jujub@", likedByqt: "852.102" },
-        { perfilImg: "assets/urso-perfil.jpg", username: "Urso.doido", imgPost: "assets/312856.png", legend: "Calor da por#%@", likedByImg: "assets/jujuba-perfil.jpg", likedByName: "Jujub@", likedByqt: "457.421" }
+        { perfilImg: "assets/urso-perfil.jpg", username: "Urso.doido", imgPost: "assets/bear.jpg", legend: "Bicicleta pequena da por#%@", likedByImg: "assets/jujuba-perfil.jpg", likedByName: "Jujub@", likedByqt: "457.421" }
     ]
 
     function individualPosts(props) {
