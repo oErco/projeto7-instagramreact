@@ -41,7 +41,7 @@ export default function Posts() {
                     </div>
                     <div class="coment-post">
                         <img src={props.likedByImg} alt="" />
-                        <p>curtido por&nbsp;<span>{props.likedByName}</span>&nbsp;e&nbsp;<span>outras {likes} pessoas</span></p>
+                        <p>curtido por&nbsp;<span>{props.likedByName}</span>&nbsp;e&nbsp;<span>outras <span data-test="likes-number">{likes}</span> pessoas</span></p>
                     </div>
                     <div class="legenda">
                         <p><span class="username-legenda">{props.username}</span>
