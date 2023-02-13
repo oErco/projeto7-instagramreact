@@ -5,7 +5,7 @@ body {
     font-weight: 300;   
 }
 
-img, .user-perfil-stories, .username-stories, .username-legenda, .coment-post span, ion-icon {
+img, .user-perfil-stories,.ion-bot-liked , .username-stories, .username-legenda, .coment-post span, ion-icon {
     cursor: pointer;
 }
 
@@ -120,8 +120,14 @@ video {
 }
 
 .ion-bot {
-    width: 22px;
-    height: 22px;
+    width: 23px;
+    height: 23px;
+}
+
+.ion-bot-liked {
+    width: 23px;
+    height: 23px;
+    fill: red;
 }
 
 .coment-post img {
