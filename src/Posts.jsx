@@ -27,7 +27,7 @@ export default function Posts() {
                         <div><ion-icon name="ellipsis-horizontal"></ion-icon></div>
                     </div>
                 </div>
-                <img data-test="post-image" onDoubleClick={() => heart ? (setLikes(likes + 1), setHeart(false)) : null} class="img-post" src={props.imgPost} alt="" />
+                <img data-test="post-image" onClick={() => heart ? (setLikes(likes + 1), setHeart(false)) : null} class="img-post" src={props.imgPost} alt="" />
                 <div class="bottom-post">
                     <div class="icons">
                         <div class="left-bottom-post">
