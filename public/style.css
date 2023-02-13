@@ -9,6 +9,10 @@ img, .user-perfil-stories,.ion-bot-liked , .username-stories, .username-legenda,
     cursor: pointer;
 }
 
+ion-icon {
+    visibility: visible;
+}
+
 video {
     width: 100%;
 }
@@ -127,7 +131,7 @@ video {
 .ion-bot-liked {
     width: 23px;
     height: 23px;
-    fill: red;
+    color: red;
 }
 
 .coment-post img {
